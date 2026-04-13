@@ -52,22 +52,22 @@ const LEADERS = [
   { 
     name: "SK Sivakumar", 
     role: "Founder & CTO", 
-    image: "https://raw.githubusercontent.com/deenapriyanka00217-arch/SK-Burners/main/public/images/SK%20Sivakumar%20Founder%20&%20CTO.png" 
+    image: "/images/SK Sivakumar Founder & CTO.png" 
   },
   { 
     name: "Divya Sivakumar", 
     role: "Co-Founder & CFO", 
-    image: "https://raw.githubusercontent.com/deenapriyanka00217-arch/SK-Burners/main/public/images/Divya%20Sivakumar%20Co-Founder%20&%20CFO%20(2).png" 
+    image: "/images/Divya Sivakumar Co-Founder & CFO (2).png" 
   },
   { 
     name: "Varshini Sivakumar", 
     role: "CEO & MD", 
-    image: "https://raw.githubusercontent.com/deenapriyanka00217-arch/SK-Burners/main/public/images/Varshini%20Sivakumar%20CEO%20&%20MD.png" 
+    image: "/images/Varshini Sivakumar CEO & MD.png" 
   },
   { 
     name: "Tarun Sivakumar", 
     role: "CMO", 
-    image: "https://raw.githubusercontent.com/deenapriyanka00217-arch/SK-Burners/main/public/images/Tarun%20Sivakumar%20CMO.png" 
+    image: "/images/Tarun Sivakumar CMO.png" 
   },
 ];
 
@@ -209,9 +209,9 @@ const YouTubeShortsPlayer = ({ videoId }: { videoId: string }) => {
 };
 
 const HERO_IMAGES = [
-  "https://raw.githubusercontent.com/deenapriyanka00217-arch/SK-Burners/main/public/images/Product%20Burner.jpeg",
-  "https://raw.githubusercontent.com/deenapriyanka00217-arch/SK-Burners/main/public/images/Product%20Burner%201.jpg",
-  "https://raw.githubusercontent.com/deenapriyanka00217-arch/SK-Burners/main/public/images/Product%20Burner%202.jpg"
+  "/images/Procuct 1.jpg",
+  "/images/Product Burner 1.jpg",
+  "/images/Product Burner 2.jpg"
 ];
 
 export default function App() {
@@ -348,7 +348,7 @@ export default function App() {
             <div className="flex items-center gap-4">
               <div className="w-32 h-24 flex items-center justify-center">
                 <img 
-                  src="https://raw.githubusercontent.com/deenapriyanka00217-arch/SK-Burners/main/public/images/Logo.png" 
+                  src="/images/Logo.png" 
                   alt="SK Burners Logo" 
                   className="w-full h-full object-contain"
                   referrerPolicy="no-referrer"
@@ -416,7 +416,7 @@ export default function App() {
         {/* Background Image Alignment Fix */}
         <div className="absolute inset-0 opacity-5 pointer-events-none">
           <img 
-            src="https://raw.githubusercontent.com/deenapriyanka00217-arch/SK-Burners/main/public/images/Product%20Burner.jpeg" 
+            src="/images/Procuct 1.jpg" 
             alt="" 
             className="w-full h-full object-contain object-center"
             referrerPolicy="no-referrer"
@@ -560,7 +560,7 @@ export default function App() {
               className="rounded-[2.5rem] overflow-hidden shadow-2xl border border-white/10 aspect-video relative group"
             >
               <img 
-                src="https://raw.githubusercontent.com/deenapriyanka00217-arch/SK-Burners/main/public/images/Product%20Burner%201.jpg" 
+                src="/images/Product Burner 1.jpg" 
                 alt="Product Detail 1" 
                 className="w-full h-full object-contain group-hover:scale-105 transition-transform duration-700"
                 referrerPolicy="no-referrer"
@@ -576,7 +576,7 @@ export default function App() {
               className="rounded-[2.5rem] overflow-hidden shadow-2xl border border-white/10 aspect-video relative group"
             >
               <img 
-                src="https://raw.githubusercontent.com/deenapriyanka00217-arch/SK-Burners/main/public/images/Product%20Burner%202.jpg" 
+                src="/images/Product Burner 2.jpg" 
                 alt="Product Detail 2" 
                 className="w-full h-full object-contain group-hover:scale-105 transition-transform duration-700"
                 referrerPolicy="no-referrer"
@@ -738,7 +738,7 @@ export default function App() {
                   {!videoError ? (
                     <video 
                       ref={videoRef}
-                      src="https://raw.githubusercontent.com/deenapriyanka00217-arch/SK-Burners/main/Video/Product%20Video.mp4" 
+                      src="/videos/Product Video.mp4" 
                       autoPlay 
                       muted 
                       loop 
@@ -751,7 +751,7 @@ export default function App() {
                       <Play className="w-12 h-12 text-[#F27D26] mx-auto mb-4 opacity-50" />
                       <p className="text-white/60 text-xs font-bold uppercase tracking-widest leading-relaxed">
                         Video not found at:<br/>
-                        <span className="text-[8px] lowercase opacity-40">Video/Product Video.mp4</span>
+                        <span className="text-[8px] lowercase opacity-40">public/videos/Product Video.mp4</span>
                       </p>
                     </div>
                   )}
@@ -786,7 +786,7 @@ export default function App() {
                   <div className="flex flex-col sm:flex-row gap-8 items-start">
                     <div className="w-32 h-20 bg-white rounded-xl p-2 flex items-center justify-center shadow-lg flex-shrink-0">
                       <img 
-                        src="https://raw.githubusercontent.com/deenapriyanka00217-arch/SK-Burners/main/public/images/Logo.png" 
+                        src="/images/Logo.png" 
                         alt="SK Burners Logo" 
                         className="w-full h-full object-contain"
                         referrerPolicy="no-referrer"
@@ -1016,7 +1016,7 @@ export default function App() {
             <div className="flex flex-col items-center lg:items-start gap-4">
               <div className="w-40 h-24 bg-white rounded-2xl p-2 flex items-center justify-center shadow-xl">
                 <img 
-                  src="https://raw.githubusercontent.com/deenapriyanka00217-arch/SK-Burners/main/public/images/Logo.png" 
+                  src="/images/Logo.png" 
                   alt="SK Burners Logo" 
                   className="w-full h-full object-contain scale-110"
                   referrerPolicy="no-referrer"
